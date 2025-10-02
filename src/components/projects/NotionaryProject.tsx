@@ -234,14 +234,15 @@ const NotionaryProject = () => {
                 <li>회원가입 시 사용자 입력의 유효성 검사를 위한 정규식 도입</li>
                 <li>OAuth2 기반 간편 로그인</li>
                 <li>JWT 인증 시스템 구축</li>
+                <li>올바르지 않은 입력에 대한 에러 메시지 처리</li>
               </ul>
             </div>
             <div className="rounded-xl p-6 border border-slate-200 bg-gradient-to-b from-white to-slate-50">
               <h4 className="font-semibold text-slate-900 mb-3">마이페이지 풀스택 개발</h4>
               <ul className="text-slate-700 text-sm list-disc list-inside space-y-1">
-                <li>유저 정보 수정</li>
+                <li>UI 설계 및 toast 메시지 처리</li>
                 <li>나의 활동 내역 조회 : 작성한 게시글, 댓글 작성 게시글, 좋아요 한 게시글</li>
-                <li>나의 활동 내역 관리 : 게시글 상세 조회, 게시글 수정 및 삭제, 댓글 수정 및 삭제</li>
+                <li>나의 활동 내역 관리 : 게시글 상세 조회, 게시글 및 댓글 수정/삭제</li>
               </ul>
             </div>
           </div>

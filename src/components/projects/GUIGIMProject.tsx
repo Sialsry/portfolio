@@ -221,7 +221,7 @@ const GUIGIMProject = () => {
             <div className="rounded-xl p-6 border border-slate-200 bg-gradient-to-b from-white to-slate-50">
               <h4 className="font-semibold text-slate-900 mb-3">마이페이지 UI 설계 및 기능 구현</h4>
               <ul className="text-slate-700 text-sm list-disc list-inside space-y-1">
-                <li>유저 정보 수정</li>
+                <li>유저 정보 수정: 닉네임, 프로필 이미지</li>
                 <li>플레이리스트 생성 및 조회</li>
                 <li>사용자 행위에 대한 피드백을 toast 메세지로 제공</li>
               </ul>
@@ -229,10 +229,10 @@ const GUIGIMProject = () => {
             <div className="rounded-xl p-6 border border-slate-200 bg-gradient-to-b from-white to-slate-50">
               <h4 className="font-semibold text-slate-900 mb-3">플레이리스트 상세 팝업 UI 설계 및 기능 구현</h4>
               <ul className="text-slate-700 text-sm list-disc list-inside space-y-1">
-                <li>플레이리스트 재생</li>
+                <li>지정한 플레이리스트 재생 버튼 클릭 시 재생바 표시</li>
                 <li>팝업 내에서 음원 검색을 통한 새로운 수록곡 추가</li>
                 <li>수록곡 및 플레이리스트 삭제</li>
-                <li>플레이리스트로 스트리밍 시작</li>
+                <li>팝업 내 스트리밍 시작 버튼 클릭 시 스트리밍 페이지로 이동</li>
               </ul>
             </div>
           </div>
