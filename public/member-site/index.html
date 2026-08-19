@@ -3,15 +3,17 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>MemberSpace</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta name="theme-color" content="#071a2f" />
+  <title>Ballpark Club</title>
+  <link rel="stylesheet" href="style.css?v=20260819b" />
 </head>
 <body>
+  <div class="top-line"></div>
   <header class="site-header">
-    <a href="#" class="logo">Member<span>Space</span></a>
-    <nav class="nav" id="navArea">
-      <a href="#features">기능</a>
-      <a href="#about">소개</a>
+    <a href="#" class="logo"><span>⚾</span> BALLPARK <em>CLUB</em></a>
+    <nav class="nav">
+      <a href="#features">MEMBERSHIP</a>
+      <a href="#about">ABOUT</a>
       <button class="btn btn-ghost" data-open="login">로그인</button>
       <button class="btn btn-primary" data-open="signup">회원가입</button>
     </nav>
@@ -20,136 +22,80 @@
   <main>
     <section class="hero">
       <div class="hero-copy">
-        <div class="eyebrow">SIMPLE MEMBERSHIP WEBSITE</div>
-        <h1>회원가입부터 로그인까지<br><span>깔끔하게 한 번에.</span></h1>
-        <p>바로 실행해서 확인할 수 있는 회원 시스템 데모입니다. 계정을 만들고 로그인하면 사용자 전용 화면이 표시됩니다.</p>
+        <div class="eyebrow">⚾ BASEBALL FAN CLUB · 2026 SEASON</div>
+        <h1>야구를 좋아한다면,<br><span>여기가 당신의 홈구장.</span></h1>
+        <p>경기 시작 전의 설렘부터 마지막 아웃카운트까지. 야구팬을 위한 온라인 클럽하우스에 가입하고 나만의 팬 프로필로 입장하세요.</p>
         <div class="hero-actions">
-          <button class="btn btn-primary btn-large" data-open="signup">무료로 시작하기</button>
-          <button class="btn btn-secondary btn-large" data-open="login">이미 계정이 있어요</button>
+          <button class="btn btn-primary btn-large" data-open="signup">클럽 가입하기</button>
+          <button class="btn btn-secondary btn-large" data-open="login">클럽하우스 입장</button>
         </div>
-        <div class="trust-row">
-          <span>✓ 빠른 회원가입</span>
-          <span>✓ 로그인 상태 유지</span>
-          <span>✓ 반응형 디자인</span>
+        <div class="season-row">
+          <div><small>SEASON</small><b>2026</b></div>
+          <div><small>STATUS</small><b>PLAY BALL</b></div>
+          <div><small>MEMBERS</small><b>OPEN</b></div>
         </div>
       </div>
-      <div class="hero-card">
-        <div class="window-bar">
-          <div class="dots"><span></span><span></span><span></span></div>
-          <small>memberspace.app</small>
+
+      <div class="scoreboard">
+        <div class="board-top"><span>BALLPARK STADIUM</span><strong>● LIVE</strong></div>
+        <div class="board-title">NIGHT GAME</div>
+        <div class="score-head"><span>TEAM</span><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>R</span></div>
+        <div class="score-row"><b>HOME</b><span>0</span><span>1</span><span>0</span><span>2</span><span>0</span><strong>3</strong></div>
+        <div class="score-row"><b>AWAY</b><span>1</span><span>0</span><span>0</span><span>0</span><span>1</span><strong>2</strong></div>
+        <div class="status-row">
+          <div><small>INNING</small><b>7</b></div>
+          <div><small>OUT</small><span class="lights"><i></i><i></i><i class="off"></i></span></div>
+          <div><small>COUNT</small><b>2 - 1</b></div>
         </div>
-        <div class="mock-profile">
-          <div class="avatar">M</div>
-          <div>
-            <b>MemberSpace</b>
-            <p>나만의 회원 전용 공간</p>
-          </div>
+        <div class="field-wrap">
+          <div class="diamond"><i class="b1"></i><i class="b2 active"></i><i class="b3"></i><i class="home"></i><span>B</span></div>
         </div>
-        <div class="mock-stat-grid">
-          <div><strong>01</strong><span>회원가입</span></div>
-          <div><strong>02</strong><span>로그인</span></div>
-          <div><strong>03</strong><span>마이페이지</span></div>
-        </div>
-        <div class="mock-message">로그인하면 개인화된 콘텐츠를 확인할 수 있어요.</div>
+        <div class="ticket"><div><small>MEMBERSHIP TICKET</small><b>ADMIT ONE</b></div><div class="barcode"></div><div><small>GATE</small><b>09</b></div></div>
       </div>
     </section>
 
     <section class="features" id="features">
-      <div class="section-heading">
-        <span>CORE FEATURES</span>
-        <h2>필요한 기능만 간결하게</h2>
-      </div>
+      <div class="section-heading"><span>BASE PATH</span><h2>홈플레이트까지 3단계</h2><p>가입부터 멤버 라운지까지, 베이스 러닝처럼 간단하게.</p></div>
       <div class="feature-grid">
-        <article class="feature-card">
-          <div class="icon">01</div>
-          <h3>회원가입</h3>
-          <p>이름, 이메일, 비밀번호를 입력해 계정을 생성합니다. 이메일 중복 가입도 방지합니다.</p>
-        </article>
-        <article class="feature-card">
-          <div class="icon">02</div>
-          <h3>로그인</h3>
-          <p>가입한 계정 정보로 로그인하고 새로고침 이후에도 로그인 상태를 유지합니다.</p>
-        </article>
-        <article class="feature-card">
-          <div class="icon">03</div>
-          <h3>회원 전용 화면</h3>
-          <p>로그인 사용자에게 이름과 이메일을 보여주며 안전하게 로그아웃할 수 있습니다.</p>
-        </article>
+        <article class="feature-card"><div class="base-icon">1B</div><span class="card-kicker">FIRST BASE</span><h3>회원가입</h3><p>이름과 이메일로 팬 프로필을 만들고 첫 베이스를 밟습니다.</p></article>
+        <article class="feature-card featured"><div class="base-icon">2B</div><span class="card-kicker">SECOND BASE</span><h3>로그인</h3><p>가입한 계정으로 로그인하면 언제든 다시 클럽하우스로 돌아올 수 있습니다.</p></article>
+        <article class="feature-card"><div class="base-icon home-icon">H</div><span class="card-kicker">HOME PLATE</span><h3>멤버 라운지</h3><p>회원 전용 화면에서 내 로스터와 멤버십 상태를 확인합니다.</p></article>
       </div>
     </section>
 
     <section class="about" id="about">
-      <div>
-        <span class="eyebrow">DEMO PROJECT</span>
-        <h2>별도 설치 없이 바로 열어볼 수 있습니다.</h2>
-      </div>
-      <p>현재 버전은 브라우저 저장소를 사용하는 프론트엔드 데모입니다. 실제 서비스에서는 서버, 데이터베이스, 비밀번호 암호화, 세션 또는 JWT 인증을 연결해야 합니다.</p>
+      <div class="big-number">09</div>
+      <div><span class="eyebrow">WELCOME TO THE DUGOUT</span><h2>야구장 특유의 감성을<br>웹사이트 안으로.</h2></div>
+      <p>전광판, 베이스 다이아몬드, 입장 티켓과 더그아웃에서 모티브를 가져온 야구팬 전용 디자인입니다.</p>
     </section>
   </main>
 
-  <footer>
-    <a href="#" class="logo">Member<span>Space</span></a>
-    <p>© 2026 MemberSpace. Demo website.</p>
-  </footer>
+  <footer><a href="#" class="logo"><span>⚾</span> BALLPARK <em>CLUB</em></a><p>© 2026 BALLPARK CLUB · KEEP THE GAME ALIVE.</p></footer>
 
   <div class="modal-backdrop" id="modalBackdrop" aria-hidden="true">
     <div class="modal" role="dialog" aria-modal="true">
+      <div class="modal-label">BALLPARK CLUB · MEMBER GATE</div>
       <button class="modal-close" id="modalClose" aria-label="닫기">×</button>
-
       <section class="auth-panel" id="loginPanel">
-        <div class="auth-head">
-          <span class="eyebrow">WELCOME BACK</span>
-          <h2>로그인</h2>
-          <p>가입한 계정으로 로그인하세요.</p>
-        </div>
-        <form id="loginForm">
-          <label>이메일<input type="email" id="loginEmail" placeholder="example@email.com" required /></label>
-          <label>비밀번호<input type="password" id="loginPassword" placeholder="비밀번호 입력" required /></label>
-          <button type="submit" class="btn btn-primary btn-full">로그인</button>
-        </form>
-        <p class="switch-text">아직 계정이 없나요? <button type="button" data-switch="signup">회원가입</button></p>
+        <div class="auth-head"><span class="eyebrow">RETURN TO THE DUGOUT</span><h2>클럽하우스 로그인</h2><p>가입한 계정으로 입장하세요.</p></div>
+        <form id="loginForm"><label>이메일<input type="email" id="loginEmail" placeholder="fan@ballpark.com" required /></label><label>비밀번호<input type="password" id="loginPassword" placeholder="비밀번호 입력" required /></label><button type="submit" class="btn btn-primary btn-full">입장하기</button></form>
+        <p class="switch-text">아직 멤버가 아닌가요? <button type="button" data-switch="signup">회원가입</button></p>
       </section>
-
       <section class="auth-panel hidden" id="signupPanel">
-        <div class="auth-head">
-          <span class="eyebrow">CREATE ACCOUNT</span>
-          <h2>회원가입</h2>
-          <p>간단한 정보 입력 후 바로 시작하세요.</p>
-        </div>
-        <form id="signupForm">
-          <label>이름<input type="text" id="signupName" placeholder="홍길동" minlength="2" required /></label>
-          <label>이메일<input type="email" id="signupEmail" placeholder="example@email.com" required /></label>
-          <label>비밀번호<input type="password" id="signupPassword" placeholder="6자 이상 입력" minlength="6" required /></label>
-          <label>비밀번호 확인<input type="password" id="signupPasswordConfirm" placeholder="비밀번호 재입력" minlength="6" required /></label>
-          <button type="submit" class="btn btn-primary btn-full">계정 만들기</button>
-        </form>
-        <p class="switch-text">이미 계정이 있나요? <button type="button" data-switch="login">로그인</button></p>
+        <div class="auth-head"><span class="eyebrow">ROOKIE REGISTRATION</span><h2>신규 멤버 등록</h2><p>팬 프로필을 만들고 시즌에 합류하세요.</p></div>
+        <form id="signupForm"><label>이름<input type="text" id="signupName" placeholder="홍길동" minlength="2" required /></label><label>이메일<input type="email" id="signupEmail" placeholder="fan@ballpark.com" required /></label><label>비밀번호<input type="password" id="signupPassword" placeholder="6자 이상 입력" minlength="6" required /></label><label>비밀번호 확인<input type="password" id="signupPasswordConfirm" placeholder="비밀번호 재입력" minlength="6" required /></label><button type="submit" class="btn btn-primary btn-full">멤버 등록하기</button></form>
+        <p class="switch-text">이미 멤버인가요? <button type="button" data-switch="login">로그인</button></p>
       </section>
     </div>
   </div>
 
   <div class="dashboard-overlay" id="dashboardOverlay">
-    <div class="dashboard">
-      <div class="dashboard-top">
-        <a href="#" class="logo">Member<span>Space</span></a>
-        <button class="btn btn-ghost" id="logoutBtn">로그아웃</button>
-      </div>
-      <div class="dashboard-content">
-        <div class="profile-large" id="profileInitial">M</div>
-        <span class="eyebrow">MEMBER DASHBOARD</span>
-        <h1><span id="profileName">회원</span>님, 반갑습니다.</h1>
-        <p id="profileEmail">member@example.com</p>
-        <div class="member-box">
-          <div><span>회원 상태</span><strong>활성</strong></div>
-          <div><span>로그인 방식</span><strong>이메일</strong></div>
-          <div><span>멤버십</span><strong>Basic</strong></div>
-        </div>
-        <button class="btn btn-primary btn-large" id="backHomeBtn">홈 화면 보기</button>
-      </div>
+    <div class="dashboard"><div class="dashboard-top"><a href="#" class="logo logo-light"><span>⚾</span> BALLPARK <em>CLUB</em></a><button class="btn btn-ghost light" id="logoutBtn">로그아웃</button></div>
+      <div class="dashboard-content"><div class="dugout-sign">MEMBERS ONLY · CLUBHOUSE</div><div class="profile-large" id="profileInitial">B</div><span class="eyebrow">ACTIVE ROSTER</span><h1><span id="profileName">회원</span>님,<br>오늘의 라인업에 등록됐습니다.</h1><p id="profileEmail">member@example.com</p><div class="member-box"><div><span>ROSTER</span><strong>ACTIVE</strong></div><div><span>POSITION</span><strong>FAN</strong></div><div><span>MEMBERSHIP</span><strong>ROOKIE</strong></div></div><button class="btn btn-primary btn-large" id="backHomeBtn">볼파크로 돌아가기</button></div>
     </div>
   </div>
 
   <div class="toast" id="toast"></div>
-  <script src="app.js"></script>
+  <script src="app.js?v=20260819b"></script>
 </body>
 </html>
